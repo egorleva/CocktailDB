@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CocktailDB</string>
+
+    <string name="toolbar_view_title_drinks">Drinks</string>
+    <string name="toolbar_view_title_filters">Filters</string>
+
+    <string name="button_text_apply">APPLY</string>
+</resources>

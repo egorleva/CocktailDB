@@ -1,0 +1,49 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="drink_description_text_view_style">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/drink_description_text_view_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="drink_category_text_view_style">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/drink_category_text_view_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="drink_category_check_box_style">
+        <item name="android:button">@drawable/checkbox_background</item>
+        <item name="android:checked">true</item>
+    </style>
+
+    <style name="drinks_section_name_style">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/drinks_section_name_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">@dimen/drinks_section_name_padding</item>
+    </style>
+
+    <style name="toolbar_view_style">
+        <item name="android:background">@drawable/toolbar_view_background</item>
+        <item name="android:elevation">@dimen/toolbar_view_elevation</item>
+    </style>
+
+    <style name="toolbar_view_title_text_view_style">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/toolbar_view_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+</resources>
